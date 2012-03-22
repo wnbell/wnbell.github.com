@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Nathan Bell]]></title>
-  <link href="http://wnbell.github.com/atom.xml" rel="self"/>
-  <link href="http://wnbell.github.com/"/>
-  <updated>2012-03-22T15:28:22-04:00</updated>
-  <id>http://wnbell.github.com/</id>
+  <link href="http://wnbell.com/atom.xml" rel="self"/>
+  <link href="http://wnbell.com/"/>
+  <updated>2012-03-22T15:31:01-04:00</updated>
+  <id>http://wnbell.com/</id>
   <author>
     <name><![CDATA[Nathan Bell]]></name>
     
@@ -15,16 +15,16 @@
   
   <entry>
     <title type="html"><![CDATA[PyDEC: Software and Algorithms for Discretization of Exterior Calculus]]></title>
-    <link href="http://wnbell.github.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus/"/>
+    <link href="http://wnbell.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus/"/>
     <updated>2012-02-01T00:00:00-05:00</updated>
-    <id>http://wnbell.github.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus</id>
+    <id>http://wnbell.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus</id>
     <content type="html"><![CDATA[<!--- Render publication's YAML data -->
 
 
 
 
 <div style="float:right">
-    <img src="http://wnbell.github.com/media/2012-TOMS-PyDEC/thumbnail.png" title="teaser image" />
+    <img src="http://wnbell.com/media/2012-TOMS-PyDEC/thumbnail.png" title="teaser image" />
 </div>
 
 
@@ -46,7 +46,7 @@
 <h3>Downloads</h3>
 
 <ul>
-<li><a href="http://wnbell.github.com/media/2012-TOMS-PyDEC/BeHi2012.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.com/media/2012-TOMS-PyDEC/BeHi2012.pdf">Paper (PDF)</a></li>
 </ul>
 
 
@@ -62,16 +62,16 @@
   
   <entry>
     <title type="html"><![CDATA[Thrust: A Productivity-Oriented Library for CUDA]]></title>
-    <link href="http://wnbell.github.com/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda/"/>
+    <link href="http://wnbell.com/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda/"/>
     <updated>2011-10-01T00:00:00-04:00</updated>
-    <id>http://wnbell.github.com/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda</id>
+    <id>http://wnbell.com/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda</id>
     <content type="html"><![CDATA[<!--- Render publication's YAML data -->
 
 
 
 
 <div style="float:right">
-    <img src="http://wnbell.github.com/media/2011-10-GCG-Thrust/thumbnail.png" title="teaser image" />
+    <img src="http://wnbell.com/media/2011-10-GCG-Thrust/thumbnail.png" title="teaser image" />
 </div>
 
 
@@ -93,7 +93,7 @@
 <h3>Downloads</h3>
 
 <ul>
-<li><a href="http://wnbell.github.com/media/2011-10-GCG-Thrust/Thrust-Gem.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.com/media/2011-10-GCG-Thrust/Thrust-Gem.pdf">Paper (PDF)</a></li>
 </ul>
 
 
@@ -108,16 +108,16 @@
   
   <entry>
     <title type="html"><![CDATA[Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods]]></title>
-    <link href="http://wnbell.github.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/"/>
+    <link href="http://wnbell.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/"/>
     <updated>2011-06-01T00:00:00-04:00</updated>
-    <id>http://wnbell.github.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods</id>
+    <id>http://wnbell.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods</id>
     <content type="html"><![CDATA[<!--- Render publication's YAML data -->
 
 
 
 
 <div style="float:right">
-    <img src="http://wnbell.github.com/media/2011-06-NVR-AMG/thumbnail.png" title="teaser image" />
+    <img src="http://wnbell.com/media/2011-06-NVR-AMG/thumbnail.png" title="teaser image" />
 </div>
 
 
@@ -139,8 +139,8 @@
 <h3>Downloads</h3>
 
 <ul>
-<li><a href="http://wnbell.github.com/media/2011-06-NVR-AMG/nvr-2011-002.pdf">Paper (PDF)</a></li>
-<li><a href="http://wnbell.github.com/media/2011-06-NVR-AMG/bibtex.txt">BibTeX (TXT)</a></li>
+<li><a href="http://wnbell.com/media/2011-06-NVR-AMG/nvr-2011-002.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.com/media/2011-06-NVR-AMG/bibtex.txt">BibTeX (TXT)</a></li>
 </ul>
 
 
@@ -156,9 +156,9 @@
   
   <entry>
     <title type="html"><![CDATA[Sparse Matrix-Vector Multiplication on Multicore and Accelerators]]></title>
-    <link href="http://wnbell.github.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators/"/>
+    <link href="http://wnbell.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators/"/>
     <updated>2010-10-01T00:00:00-04:00</updated>
-    <id>http://wnbell.github.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators</id>
+    <id>http://wnbell.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators</id>
     <content type="html"><![CDATA[<!--- Render publication's YAML data -->
 
 
@@ -189,16 +189,16 @@
   
   <entry>
     <title type="html"><![CDATA[Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors]]></title>
-    <link href="http://wnbell.github.com/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors/"/>
+    <link href="http://wnbell.com/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors/"/>
     <updated>2009-10-01T00:00:00-04:00</updated>
-    <id>http://wnbell.github.com/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors</id>
+    <id>http://wnbell.com/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors</id>
     <content type="html"><![CDATA[<!--- Render publication's YAML data -->
 
 
 
 
 <div style="float:right">
-    <img src="http://wnbell.github.com/media/2009-11-SC-SpMV/thumbnail.png" title="teaser image" />
+    <img src="http://wnbell.com/media/2009-11-SC-SpMV/thumbnail.png" title="teaser image" />
 </div>
 
 
@@ -220,7 +220,7 @@
 <h3>Downloads</h3>
 
 <ul>
-<li><a href="http://wnbell.github.com/media/2009-11-SC-SpMV/nvr-2008-004.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.com/media/2009-11-SC-SpMV/nvr-2008-004.pdf">Paper (PDF)</a></li>
 </ul>
 
 
@@ -237,16 +237,16 @@
   
   <entry>
     <title type="html"><![CDATA[Efficient Sparse Matrix-Vector Multiplication on CUDA]]></title>
-    <link href="http://wnbell.github.com/blog/2008/12/01/efficient-sparse-matrix-vector-multiplication-on-cuda/"/>
+    <link href="http://wnbell.com/blog/2008/12/01/efficient-sparse-matrix-vector-multiplication-on-cuda/"/>
     <updated>2008-12-01T00:00:00-05:00</updated>
-    <id>http://wnbell.github.com/blog/2008/12/01/efficient-sparse-matrix-vector-multiplication-on-cuda</id>
+    <id>http://wnbell.com/blog/2008/12/01/efficient-sparse-matrix-vector-multiplication-on-cuda</id>
     <content type="html"><![CDATA[<!--- Render publication's YAML data -->
 
 
 
 
 <div style="float:right">
-    <img src="http://wnbell.github.com/media/2008-12-NVR-SpMV/thumbnail.png" title="teaser image" />
+    <img src="http://wnbell.com/media/2008-12-NVR-SpMV/thumbnail.png" title="teaser image" />
 </div>
 
 
@@ -271,8 +271,8 @@
 <h3>Downloads</h3>
 
 <ul>
-<li><a href="http://wnbell.github.com/media/2008-12-NVR-SpMV/nvr-2008-004.pdf">Paper (PDF)</a></li>
-<li><a href="http://wnbell.github.com/media/2008-12-NVR-SpMV/bibtex.txt">BibTeX (TXT)</a></li>
+<li><a href="http://wnbell.com/media/2008-12-NVR-SpMV/nvr-2008-004.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.com/media/2008-12-NVR-SpMV/bibtex.txt">BibTeX (TXT)</a></li>
 </ul>
 
 
@@ -288,16 +288,16 @@
   
   <entry>
     <title type="html"><![CDATA[Algebraic Multigrid for Discrete Differential Forms]]></title>
-    <link href="http://wnbell.github.com/blog/2008/08/01/algebraic-multigrid-for-discrete-differential-forms/"/>
+    <link href="http://wnbell.com/blog/2008/08/01/algebraic-multigrid-for-discrete-differential-forms/"/>
     <updated>2008-08-01T00:00:00-04:00</updated>
-    <id>http://wnbell.github.com/blog/2008/08/01/algebraic-multigrid-for-discrete-differential-forms</id>
+    <id>http://wnbell.com/blog/2008/08/01/algebraic-multigrid-for-discrete-differential-forms</id>
     <content type="html"><![CDATA[<!--- Render publication's YAML data -->
 
 
 
 
 <div style="float:right">
-    <img src="http://wnbell.github.com/media/2008-08-Thesis/thumbnail.png" title="teaser image" />
+    <img src="http://wnbell.com/media/2008-08-Thesis/thumbnail.png" title="teaser image" />
 </div>
 
 
@@ -319,7 +319,7 @@
 <h3>Downloads</h3>
 
 <ul>
-<li><a href="http://wnbell.github.com/media/2008-08-Thesis/Bell2008.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.com/media/2008-08-Thesis/Bell2008.pdf">Paper (PDF)</a></li>
 </ul>
 
 
@@ -334,16 +334,16 @@
   
   <entry>
     <title type="html"><![CDATA[Algebraic Multigrid for k-form Laplacians]]></title>
-    <link href="http://wnbell.github.com/blog/2008/02/01/algebraic-multigrid-for-k-form-laplacians/"/>
+    <link href="http://wnbell.com/blog/2008/02/01/algebraic-multigrid-for-k-form-laplacians/"/>
     <updated>2008-02-01T00:00:00-05:00</updated>
-    <id>http://wnbell.github.com/blog/2008/02/01/algebraic-multigrid-for-k-form-laplacians</id>
+    <id>http://wnbell.com/blog/2008/02/01/algebraic-multigrid-for-k-form-laplacians</id>
     <content type="html"><![CDATA[<!--- Render publication's YAML data -->
 
 
 
 
 <div style="float:right">
-    <img src="http://wnbell.github.com/media/2008-02-NLA-kform/thumbnail.jpg" title="teaser image" />
+    <img src="http://wnbell.com/media/2008-02-NLA-kform/thumbnail.jpg" title="teaser image" />
 </div>
 
 
@@ -365,7 +365,7 @@
 <h3>Downloads</h3>
 
 <ul>
-<li><a href="http://wnbell.github.com/media/2008-02-NLA-kform/BeOl2008.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.com/media/2008-02-NLA-kform/BeOl2008.pdf">Paper (PDF)</a></li>
 </ul>
 
 
@@ -380,16 +380,16 @@
   
   <entry>
     <title type="html"><![CDATA[A Fast Multigrid Algorithm for Mesh Deformation]]></title>
-    <link href="http://wnbell.github.com/blog/2006/07/01/a-fast-multigrid-algorithm-for-mesh-deformation/"/>
+    <link href="http://wnbell.com/blog/2006/07/01/a-fast-multigrid-algorithm-for-mesh-deformation/"/>
     <updated>2006-07-01T00:00:00-04:00</updated>
-    <id>http://wnbell.github.com/blog/2006/07/01/a-fast-multigrid-algorithm-for-mesh-deformation</id>
+    <id>http://wnbell.com/blog/2006/07/01/a-fast-multigrid-algorithm-for-mesh-deformation</id>
     <content type="html"><![CDATA[<!--- Render publication's YAML data -->
 
 
 
 
 <div style="float:right">
-    <img src="http://wnbell.github.com/media/2006-07-SIGGRAPH-Multigrid/thumbnail.jpg" title="teaser image" />
+    <img src="http://wnbell.com/media/2006-07-SIGGRAPH-Multigrid/thumbnail.jpg" title="teaser image" />
 </div>
 
 
@@ -411,8 +411,8 @@
 <h3>Downloads</h3>
 
 <ul>
-<li><a href="http://wnbell.github.com/media/2006-07-SIGGRAPH/ShYiBeFe2006.pdf">Paper (PDF)</a></li>
-<li><a href="http://wnbell.github.com/media/2006-07-SIGGRAPH/FastMultigridMesh.avi">Video (AVI)</a></li>
+<li><a href="http://wnbell.com/media/2006-07-SIGGRAPH/ShYiBeFe2006.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.com/media/2006-07-SIGGRAPH/FastMultigridMesh.avi">Video (AVI)</a></li>
 </ul>
 
 
@@ -427,16 +427,16 @@
   
   <entry>
     <title type="html"><![CDATA[Particle-Based Simulation of Granular Materials]]></title>
-    <link href="http://wnbell.github.com/blog/2005/07/01/particle-based-simulation-of-granular-materials/"/>
+    <link href="http://wnbell.com/blog/2005/07/01/particle-based-simulation-of-granular-materials/"/>
     <updated>2005-07-01T00:00:00-04:00</updated>
-    <id>http://wnbell.github.com/blog/2005/07/01/particle-based-simulation-of-granular-materials</id>
+    <id>http://wnbell.com/blog/2005/07/01/particle-based-simulation-of-granular-materials</id>
     <content type="html"><![CDATA[<!--- Render publication's YAML data -->
 
 
 
 
 <div style="float:right">
-    <img src="http://wnbell.github.com/media/2005-07-SCA-Granular/thumbnail.jpg" title="teaser image" />
+    <img src="http://wnbell.com/media/2005-07-SCA-Granular/thumbnail.jpg" title="teaser image" />
 </div>
 
 
@@ -458,8 +458,8 @@
 <h3>Downloads</h3>
 
 <ul>
-<li><a href="http://wnbell.github.com/media/2005-07-SCA-Granular/BeYiMu2005.pdf">Paper (PDF)</a></li>
-<li><a href="http://wnbell.github.com/media/2005-07-SCA-Granular/Particle-Based_Granular.avi">Video (AVI)</a></li>
+<li><a href="http://wnbell.com/media/2005-07-SCA-Granular/BeYiMu2005.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.com/media/2005-07-SCA-Granular/Particle-Based_Granular.avi">Video (AVI)</a></li>
 </ul>
 
 
