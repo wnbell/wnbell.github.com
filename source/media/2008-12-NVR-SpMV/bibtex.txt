@@ -1,0 +1,9 @@
+@techreport{Bell:SpMV:NVIDIA:2008,
+    author = {Nathan Bell and Michael Garland},
+    title = {Efficient Sparse Matrix-Vector Multiplication on {CUDA}},
+    month = dec,
+    year = 2008,
+    institution = {NVIDIA Corporation},
+    type = {NVIDIA Technical Report},
+    number = {NVR-2008-004},
+}

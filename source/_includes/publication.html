@@ -1,0 +1,14 @@
+<!--- Render publication's YAML data -->
+
+{% if page.teaser %}
+<div style="float:right">
+    <img src="{{ site.root }}{{ page.teaser }}" title="teaser image" />
+</div>
+{% endif %}
+
+<h3>Citation</h3>
+<p>"<b>{{ page.title }}</b>"<br>{{ page.authors | array_to_sentence_string }}<br><i>{{page.publication}}</i></p>
+
+<h3>Abstract</h3>
+{{ page.abstract }}
+

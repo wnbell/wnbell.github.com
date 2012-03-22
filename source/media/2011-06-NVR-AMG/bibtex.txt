@@ -1,0 +1,9 @@
+@techreport{Bell:AMG:NVIDIA:2011,
+    author = {Nathan Bell and Steven Dalton and Luke Olson},
+    title = {Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods},
+    month = jun,
+    year = 2011,
+    institution = {NVIDIA Corporation},
+    type = {NVIDIA Technical Report},
+    number = {NVR-2011-002},
+}
