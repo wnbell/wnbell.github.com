@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Efficient Sparse Matrix-Vector Multiplication on CUDA - Nathan Bell</title>
+  <meta name="author" content="Nathan Bell">
+
+  
+  <meta name="description" content="Citation &#8220;Efficient Sparse Matrix-Vector Multiplication on CUDA&#8221;Nathan Bell and Michael GarlandNVIDIA Technical Report NVR-2008-004, &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://wnbell.github.com/blog/2008/12/01/efficient-sparse-matrix-vector-multiplication-on-cuda">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Nathan Bell" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="/stylesheets/projects.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30201820-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Nathan Bell</a></h1>
+  
+    <h2>personal website and blog</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:wnbell.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/projects.html">Projects</a></li>
+  <li><a href="/blog/categories/publications">Publications</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Efficient Sparse Matrix-Vector Multiplication on CUDA</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-12-01T00:00:00-05:00" pubdate data-updated="true">Dec 1<span>st</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="/media/2008-12-NVR-SpMV/thumbnail.png" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Efficient Sparse Matrix-Vector Multiplication on CUDA</b>&#8221;<br>Nathan Bell and Michael Garland<br><i>NVIDIA Technical Report NVR-2008-004, December 2008</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>The massive parallelism of graphics processing units (GPUs) offers tremendous performance in many high-performance computing applications. While dense linear algebra readily maps to such platforms, harnessing this potential for sparse matrix computations presents additional challenges. Given its role in iterative methods for solving sparse linear systems and eigenvalue problems, sparse matrix-vector multiplication (SpMV) is of singular importance in sparse linear algebra.</p>
+
+
+<p> <p>In this paper we discuss data structures and algorithms for SpMV that are efficiently implemented on the CUDA platform for the fine-grained parallel architecture of the GPU. Given the memory-bound nature of SpMV, we emphasize memory bandwidth efficiency and compact storage formats. We consider a broad spectrum of sparse matrices, from those that are well-structured and regular to highly irregular matrices with large imbalances in the distribution of nonzeros per matrix row. We develop methods to exploit several common forms of matrix structure while offering alternatives which accommodate greater irregularity.</p> <p>On structured, grid-based matrices we achieve performance of 36 GFLOP/s in single precision and 16 GFLOP/s in double precision on a GeForce GTX 280 GPU. For unstructured finite-element matrices, we observe performance in excess of 15 GFLOP/s and 10 GFLOP/s in single and double precision respectively. These results compare favorably to prior state-of-the-art studies of SpMV methods on conventional multicore processors. Our double precision SpMV performance is generally two and a half times that of a Cell BE with 8 SPEs and more than ten times greater than that of a quad-core Intel Clovertown system.</p></p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="/media/2008-12-NVR-SpMV/nvr-2008-004.pdf">Paper (PDF)</a></li>
+<li><a href="/media/2008-12-NVR-SpMV/bibtex.txt">BibTeX (TXT)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://research.nvidia.com/publication/efficient-sparse-matrix-vector-multiplication-cuda">NVIDIA Research</a></li>
+<li><a href="http://code.google.com/p/cusp-library/downloads/list">Source Code</a></li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nathan Bell</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-12-01T00:00:00-05:00" pubdate data-updated="true">Dec 1<span>st</span>, 2008</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/publications/'>publications</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wnbell.github.com/blog/2008/12/01/efficient-sparse-matrix-vector-multiplication-on-cuda/" data-via="" data-counturl="http://wnbell.github.com/blog/2008/12/01/efficient-sparse-matrix-vector-multiplication-on-cuda/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2008/08/01/algebraic-multigrid-for-discrete-differential-forms/" title="Previous Post: Algebraic Multigrid for Discrete Differential Forms">&laquo; Algebraic Multigrid for Discrete Differential Forms</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors/" title="Next Post: Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors">Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus/">PyDEC: Software and Algorithms for Discretization of Exterior Calculus</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda/">Thrust: A Productivity-Oriented Library for CUDA</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/">Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators/">Sparse Matrix-Vector Multiplication on Multicore and Accelerators</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors/">Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Nathan Bell -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

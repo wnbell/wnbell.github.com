@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Sparse Matrix-Vector Multiplication on Multicore and Accelerators - Nathan Bell</title>
+  <meta name="author" content="Nathan Bell">
+
+  
+  <meta name="description" content="Citation &#8220;Sparse Matrix-Vector Multiplication on Multicore and Accelerators&#8221;Sam Williams, Nathan Bell, Jee Whan Choi, Michael Garland, &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://wnbell.github.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Nathan Bell" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="/stylesheets/projects.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30201820-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Nathan Bell</a></h1>
+  
+    <h2>personal website and blog</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:wnbell.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/projects.html">Projects</a></li>
+  <li><a href="/blog/categories/publications">Publications</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Sparse Matrix-Vector Multiplication on Multicore and Accelerators</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-10-01T00:00:00-04:00" pubdate data-updated="true">Oct 1<span>st</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><!--- Render publication's YAML data -->
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Sparse Matrix-Vector Multiplication on Multicore and Accelerators</b>&#8221;<br>Sam Williams, Nathan Bell, Jee Whan Choi, Michael Garland, Leonid Oliker, and Richard Vuduc<br><i>Scientific Computing on Multicore and Accelerators, December 2010</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>This chapter summarizes recent work on the development of highperformance multicore and accelerator-based implementations of sparse matrix-vector multiplication (SpMV). As an object of study, SpMV is an interesting computation for at least two reasons. First, it appears widely in applications in scientific and engineering computing, nancial and economic modeling, and information retrieval, among others, and is therefore of great practical interest. Secondly, it is both simple to describe but challenging to implement well, since its performance is limited by a variety of factors, including low computational intensity, potentially highly irregular memory access behavior, and a strong input-dependence that be known only at run-time. Thus, we believe SpMV both practically important as well as insightful for understanding the algorithmic and implementation principles necessary to making eff ective use of state-of-the-art systems.</p>
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://www.crcpress.com/product/isbn/9781439825365">CRC Press</a></li>
+<li><a href="http://research.nvidia.com/publication/sparse-matrix-vector-multiplication-multicore-and-accelerators">NVIDIA Research</a></li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nathan Bell</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-10-01T00:00:00-04:00" pubdate data-updated="true">Oct 1<span>st</span>, 2010</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/publications/'>publications</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wnbell.github.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators/" data-via="" data-counturl="http://wnbell.github.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors/" title="Previous Post: Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors">&laquo; Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/" title="Next Post: Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods">Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus/">PyDEC: Software and Algorithms for Discretization of Exterior Calculus</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda/">Thrust: A Productivity-Oriented Library for CUDA</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/">Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators/">Sparse Matrix-Vector Multiplication on Multicore and Accelerators</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors/">Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Nathan Bell -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

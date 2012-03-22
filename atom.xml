@@ -1,16 +1,475 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Nathan Bell]]></title>
   <link href="http://wnbell.github.com/atom.xml" rel="self"/>
   <link href="http://wnbell.github.com/"/>
-  <updated>2012-03-20T14:45:26-04:00</updated>
+  <updated>2012-03-22T14:49:04-04:00</updated>
   <id>http://wnbell.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Nathan Bell]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PyDEC: Software and Algorithms for Discretization of Exterior Calculus]]></title>
+    <link href="http://wnbell.github.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus/"/>
+    <updated>2012-02-01T00:00:00-05:00</updated>
+    <id>http://wnbell.github.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus</id>
+    <content type="html"><![CDATA[<!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="http://wnbell.github.com/media/2012-TOMS-PyDEC/thumbnail.png" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>PyDEC: Software and Algorithms for Discretization of Exterior Calculus</b>&#8221;<br>Nathan Bell and Anil Hirani<br><i>ACM Transactions on Mathematical Software (accepted)</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>This paper describes the algorithms, features and implementation of PyDEC, a Python library for computations related to the discretization of exterior calculus. PyDEC facilitates inquiry into both physical problems on manifolds as well as purely topological problems on abstract complexes. We describe efficient algorithms for constructing the operators and objects that arise in discrete exterior calculus, lowest order finite element exterior calculus and in related topological problems. Our algorithms are formulated in terms of high-level matrix operations which extend to arbitrary dimension. As a result, our implementations map well to the facilities of numerical libraries such as NumPy and SciPy. The availability of such libraries makes Python suitable for prototyping numerical methods. We demonstrate how PyDEC is used to solve physical and topological problems through several concise examples.</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="http://wnbell.github.com/media/2012-TOMS-PyDEC/BeHi2012.pdf">Paper (PDF)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://code.google.com/p/pydec/">Project Website</a></li>
+<li><a href="http://arxiv.org/abs/1103.3076">arXiv</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thrust: A Productivity-Oriented Library for CUDA]]></title>
+    <link href="http://wnbell.github.com/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda/"/>
+    <updated>2011-10-01T00:00:00-04:00</updated>
+    <id>http://wnbell.github.com/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda</id>
+    <content type="html"><![CDATA[<!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="http://wnbell.github.com/media/2011-10-GCG-Thrust/thumbnail.png" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Thrust: A Productivity-Oriented Library for CUDA</b>&#8221;<br>Nathan Bell and Jared Hoberock<br><i>GPU Computing Gems, Jade Edition, Edited by Wen-mei W. Hwu, October 2011</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>This chapter demonstrates how to leverage the Thrust parallel template library to implement high-performance applications with minimal programming effort. Based on the C++ Standard Template Library (STL), Thrust brings a familiar high-level interface to the realm of GPU Computing while remaining fully interoperable with the rest of the CUDA software ecosystem. Applications written with Thrust are concise, readable, and efficient.</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="http://wnbell.github.com/media/2011-10-GCG-Thrust/Thrust-Gem.pdf">Paper (PDF)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://mkp.com/news/3405">Morgan Kauffman</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods]]></title>
+    <link href="http://wnbell.github.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/"/>
+    <updated>2011-06-01T00:00:00-04:00</updated>
+    <id>http://wnbell.github.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods</id>
+    <content type="html"><![CDATA[<!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="http://wnbell.github.com/media/2011-06-NVR-AMG/thumbnail.png" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods</b>&#8221;<br>Nathan Bell, Steven Dalton, and Luke Olson<br><i>NVIDIA Technical Report NVR-2011-002, June 2011</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>Algebraic multigrid methods for large, sparse linear systems are a necessity in many computational simulations, yet parallel algorithms for such solvers are generally decomposed into coarse-grained tasks suitable for distributed computers with traditional processing cores. However, accelerating multigrid on massively parallel throughput-oriented processors, such as the GPU, demands algorithms with abundant fine-grained parallelism. In this paper, we develop a parallel algebraic multigrid method which exposes substantial fine-grained parallelism in both the construction of the multigrid hierarchy as well as the cycling or solve stage. Our algorithms are expressed in terms of scalable parallel primitives that are efficiently implemented on the GPU. The resulting solver achieves an average speedup of over 2x in the setup phase and around 6x in the cycling phase when compared to a representative CPU implementation.</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="http://wnbell.github.com/2011-06-NVR-AMG/nvr-2011-002.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.github.com/2011-06-NVR-AMG/bibtex.txt">BibTeX (TXT)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://research.nvidia.com/publication/exposing-fine-grained-parallelism-algebraic-multigrid-methods">NVIDIA Research</a></li>
+<li><a href="http://code.google.com/p/cusp-library/downloads/list">Source Code</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sparse Matrix-Vector Multiplication on Multicore and Accelerators]]></title>
+    <link href="http://wnbell.github.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators/"/>
+    <updated>2010-10-01T00:00:00-04:00</updated>
+    <id>http://wnbell.github.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators</id>
+    <content type="html"><![CDATA[<!--- Render publication's YAML data -->
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Sparse Matrix-Vector Multiplication on Multicore and Accelerators</b>&#8221;<br>Sam Williams, Nathan Bell, Jee Whan Choi, Michael Garland, Leonid Oliker, and Richard Vuduc<br><i>Scientific Computing on Multicore and Accelerators, December 2010</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>This chapter summarizes recent work on the development of highperformance multicore and accelerator-based implementations of sparse matrix-vector multiplication (SpMV). As an object of study, SpMV is an interesting computation for at least two reasons. First, it appears widely in applications in scientific and engineering computing, nancial and economic modeling, and information retrieval, among others, and is therefore of great practical interest. Secondly, it is both simple to describe but challenging to implement well, since its performance is limited by a variety of factors, including low computational intensity, potentially highly irregular memory access behavior, and a strong input-dependence that be known only at run-time. Thus, we believe SpMV both practically important as well as insightful for understanding the algorithmic and implementation principles necessary to making eff ective use of state-of-the-art systems.</p>
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://www.crcpress.com/product/isbn/9781439825365">CRC Press</a></li>
+<li><a href="http://research.nvidia.com/publication/sparse-matrix-vector-multiplication-multicore-and-accelerators">NVIDIA Research</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors]]></title>
+    <link href="http://wnbell.github.com/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors/"/>
+    <updated>2009-10-01T00:00:00-04:00</updated>
+    <id>http://wnbell.github.com/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors</id>
+    <content type="html"><![CDATA[<!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="http://wnbell.github.com/media/2009-11-SC-SpMV/thumbnail.png" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors</b>&#8221;<br>Nathan Bell and Michael Garland<br><i>Proc. Supercomputing &#8216;09, November 2009</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>Sparse matrix-vector multiplication (SpMV) is of singular importance in sparse linear algebra. In contrast to the uniform regularity of dense linear algebra, sparse operations encounter a broad spectrum of matrices ranging from the regular to the highly irregular. Harnessing the tremendous potential of throughput-oriented processors for sparse operations requires that we expose substantial fine-grained parallelism and impose sufficient regularity on execution paths and memory access patterns. We explore SpMV methods that are well-suited to throughput-oriented architectures like the GPU and which exploit several common sparsity classes. The techniques we propose are efficient, successfully utilizing large percentages of peak bandwidth. Furthermore, they deliver excellent total throughput, averaging 16 GFLOP/s and 10 GFLOP/s in double precision for structured grid and unstructured mesh matrices, respectively, on a GeForce GTX 285. This is roughly 2.8 times the throughput previously achieved on Cell BE and more than 10 times that of a quad-core Intel Clovertown system.</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="http://wnbell.github.com/media/2009-11-SC-SpMV/nvr-2008-004.pdf">Paper (PDF)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://dl.acm.org/citation.cfm?doid=1654059.1654078">ACM Digital Library</a></li>
+<li><a href="http://research.nvidia.com/content/implementing-sparse-matrix-vector-multiplication-throughput-oriented-processors">NVIDIA Research</a></li>
+<li><a href="http://code.google.com/p/cusp-library/downloads/list">Source Code</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Efficient Sparse Matrix-Vector Multiplication on CUDA]]></title>
+    <link href="http://wnbell.github.com/blog/2008/12/01/efficient-sparse-matrix-vector-multiplication-on-cuda/"/>
+    <updated>2008-12-01T00:00:00-05:00</updated>
+    <id>http://wnbell.github.com/blog/2008/12/01/efficient-sparse-matrix-vector-multiplication-on-cuda</id>
+    <content type="html"><![CDATA[<!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="http://wnbell.github.com/media/2008-12-NVR-SpMV/thumbnail.png" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Efficient Sparse Matrix-Vector Multiplication on CUDA</b>&#8221;<br>Nathan Bell and Michael Garland<br><i>NVIDIA Technical Report NVR-2008-004, December 2008</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>The massive parallelism of graphics processing units (GPUs) offers tremendous performance in many high-performance computing applications. While dense linear algebra readily maps to such platforms, harnessing this potential for sparse matrix computations presents additional challenges. Given its role in iterative methods for solving sparse linear systems and eigenvalue problems, sparse matrix-vector multiplication (SpMV) is of singular importance in sparse linear algebra.</p>
+
+
+<p> <p>In this paper we discuss data structures and algorithms for SpMV that are efficiently implemented on the CUDA platform for the fine-grained parallel architecture of the GPU. Given the memory-bound nature of SpMV, we emphasize memory bandwidth efficiency and compact storage formats. We consider a broad spectrum of sparse matrices, from those that are well-structured and regular to highly irregular matrices with large imbalances in the distribution of nonzeros per matrix row. We develop methods to exploit several common forms of matrix structure while offering alternatives which accommodate greater irregularity.</p> <p>On structured, grid-based matrices we achieve performance of 36 GFLOP/s in single precision and 16 GFLOP/s in double precision on a GeForce GTX 280 GPU. For unstructured finite-element matrices, we observe performance in excess of 15 GFLOP/s and 10 GFLOP/s in single and double precision respectively. These results compare favorably to prior state-of-the-art studies of SpMV methods on conventional multicore processors. Our double precision SpMV performance is generally two and a half times that of a Cell BE with 8 SPEs and more than ten times greater than that of a quad-core Intel Clovertown system.</p></p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="http://wnbell.github.com/media/2008-12-NVR-SpMV/nvr-2008-004.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.github.com/media/2008-12-NVR-SpMV/bibtex.txt">BibTeX (TXT)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://research.nvidia.com/publication/efficient-sparse-matrix-vector-multiplication-cuda">NVIDIA Research</a></li>
+<li><a href="http://code.google.com/p/cusp-library/downloads/list">Source Code</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Algebraic Multigrid for Discrete Differential Forms]]></title>
+    <link href="http://wnbell.github.com/blog/2008/08/01/algebraic-multigrid-for-discrete-differential-forms/"/>
+    <updated>2008-08-01T00:00:00-04:00</updated>
+    <id>http://wnbell.github.com/blog/2008/08/01/algebraic-multigrid-for-discrete-differential-forms</id>
+    <content type="html"><![CDATA[<!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="http://wnbell.github.com/media/2008-08-Thesis/thumbnail.png" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Algebraic Multigrid for Discrete Differential Forms</b>&#8221;<br>Nathan Bell<br><i>PhD Thesis (UIUCDCS-R-2008-2986), August 2008</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>Discrete differential forms arise in scientific disciplines ranging from computational electromagnetics to computer graphics. Examples include stable discretizations of the eddy-current problem, topological methods for sensor network coverage, visualization of complex flows, surface parameterization, and the design of vector fields on meshes. In this thesis we describe efficient and scalable numerical solvers for discrete k-form problems. Our approach is based on the principles of algebraic multigrid (AMG) which is designed to solve large-scale linear systems with optimal, or near-optimal efficiency. Since the k-form problems to be solved are arbitrarily large, the need for scalable numerical solvers is clear.</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="http://wnbell.github.com/media/2008-08-Thesis/Bell2008.pdf">Paper (PDF)</a></li>
+</ul>
+
+
+<h2>External Links</h2>
+
+<ul>
+<li><a href="http://hdl.handle.net/2142/11474">University of Illinois</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Algebraic Multigrid for k-form Laplacians]]></title>
+    <link href="http://wnbell.github.com/blog/2008/02/01/algebraic-multigrid-for-k-form-laplacians/"/>
+    <updated>2008-02-01T00:00:00-05:00</updated>
+    <id>http://wnbell.github.com/blog/2008/02/01/algebraic-multigrid-for-k-form-laplacians</id>
+    <content type="html"><![CDATA[<!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="http://wnbell.github.com/media/2008-02-NLA-kform/thumbnail.jpg" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Algebraic Multigrid for k-form Laplacians</b>&#8221;<br>Nathan Bell and Luke N. Olson<br><i>Numerical Linear Algebra with Applications, Volume 15, Issue 2-3, Pages 165-185, February 2008</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>In this paper we describe an aggregation-based algebraic multigrid method for the solution of discrete k-form Laplacians. Our work generalizes Reitzinger and Schöberl&#8217;s algorithm to higher-dimensional discrete forms. We provide conditions on the tentative prolongators under which the commutativity of the coarse and fine de Rham complexes is maintained. Further, a practical algorithm that satisfies these conditions is outlined, and smoothed prolongation operators and the associated finite element spaces are highlighted. Numerical evidence of the efficiency and generality of the proposed method is presented in the context of discrete Hodge decompositions.</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="http://wnbell.github.com/media/2008-02-NLA-kform/BeOl2008.pdf">Paper (PDF)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://onlinelibrary.wiley.com/doi/10.1002/nla.577/abstract">Wiley Online Library</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Fast Multigrid Algorithm for Mesh Deformation]]></title>
+    <link href="http://wnbell.github.com/blog/2006/07/01/a-fast-multigrid-algorithm-for-mesh-deformation/"/>
+    <updated>2006-07-01T00:00:00-04:00</updated>
+    <id>http://wnbell.github.com/blog/2006/07/01/a-fast-multigrid-algorithm-for-mesh-deformation</id>
+    <content type="html"><![CDATA[<!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="http://wnbell.github.com/media/2006-07-SIGGRAPH-Multigrid/thumbnail.jpg" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>A Fast Multigrid Algorithm for Mesh Deformation</b>&#8221;<br>Lin Shi, Yizhou Yu, Nathan Bell, and Wei-Wen Feng<br><i>SIGGRAPH 2006 (ACM Transactions on Graphics, Vol. 24, No. 3)</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>In this paper, we present a multigrid technique for efficiently deforming large surface and volume meshes. We show that a previous least-squares formulation for distortion minimization reduces to a Laplacian system on a general graph structure for which we derive an analytic expression. We then describe an efficient multigrid algorithm for solving the relevant equations. Here we develop novel prolongation and restriction operators used in the multigrid cycles. Combined with a simple but effective graph coarsening strategy, our algorithm can outperform other multigrid solvers and the factorization stage of direct solvers in both time and memory costs for large meshes. It is demonstrated that our solver can trade off accuracy for speed to achieve greater interactivity, which is attractive for manipulating large meshes. Our multigrid solver is particularly well suited for a mesh editing environment which does not permit extensive precomputation. Experimental evidence of these advantages is provided on a number of meshes with a wide range of size. With our mesh deformation solver, we also successfully demonstrate that visually appealing mesh animations can be generated from both motion capture data and a single base mesh even when they are inconsistent.</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="http://wnbell.github.com//media/2006-07-SIGGRAPH/ShYiBeFe2006.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.github.com//media/2006-07-SIGGRAPH/FastMultigridMesh.avi">Video (AVI)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://dl.acm.org/citation.cfm?id=1142001">ACM Digital Library</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Particle-Based Simulation of Granular Materials]]></title>
+    <link href="http://wnbell.github.com/blog/2005/07/01/particle-based-simulation-of-granular-materials/"/>
+    <updated>2005-07-01T00:00:00-04:00</updated>
+    <id>http://wnbell.github.com/blog/2005/07/01/particle-based-simulation-of-granular-materials</id>
+    <content type="html"><![CDATA[<!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="http://wnbell.github.com/media/2005-07-SCA-Granular/thumbnail.jpg" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Particle-Based Simulation of Granular Materials</b>&#8221;<br>Nathan Bell, Yizhou Yu, and Peter J. Mucha<br><i>ACM SIGGRAPH/Eurographics Symposium on Computer Animation 2005</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>Granular materials, such as sand and grains, are ubiquitous. Simulating the 3D dynamic motion of such materials represents a challenging problem in graphics because of their unique physical properties. In this paper we present a simple and effective method for granular material simulation. By incorporating techniques from physical models, our approach describes granular phenomena more faithfully than previous methods. Granular material is represented by a large collection of non-spherical particles which may be in persistent contact. The particles represent discrete elements of the simulated material. One major advantage of using discrete elements is that the topology of particle interaction can evolve freely. As a result, highly dynamic phenomena, such as splashing and avalanches, can be conveniently generated by this meshless approach without sacrificing physical accuracy. We generalize this discrete model to rigid bodies by distributing particles over their surfaces. In this way, two-way coupling between granular materials and rigid bodies is achieved.</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="http://wnbell.github.com/media/2005-07-SCA-Granular/BeYiMu2005.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.github.com/media/2005-07-SCA-Granular/Particle-Based_Granular.avi">Video (AVI)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://portal.acm.org/citation.cfm?id=1073379">ACM Digital Library</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
 </feed>

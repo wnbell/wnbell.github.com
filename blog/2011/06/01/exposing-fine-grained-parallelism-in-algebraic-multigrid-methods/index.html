@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods - Nathan Bell</title>
+  <meta name="author" content="Nathan Bell">
+
+  
+  <meta name="description" content="Citation &#8220;Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods&#8221;Nathan Bell, Steven Dalton, and Luke OlsonNVIDIA Technical &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://wnbell.github.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Nathan Bell" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="/stylesheets/projects.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30201820-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Nathan Bell</a></h1>
+  
+    <h2>personal website and blog</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:wnbell.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/projects.html">Projects</a></li>
+  <li><a href="/blog/categories/publications">Publications</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-06-01T00:00:00-04:00" pubdate data-updated="true">Jun 1<span>st</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="/media/2011-06-NVR-AMG/thumbnail.png" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods</b>&#8221;<br>Nathan Bell, Steven Dalton, and Luke Olson<br><i>NVIDIA Technical Report NVR-2011-002, June 2011</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>Algebraic multigrid methods for large, sparse linear systems are a necessity in many computational simulations, yet parallel algorithms for such solvers are generally decomposed into coarse-grained tasks suitable for distributed computers with traditional processing cores. However, accelerating multigrid on massively parallel throughput-oriented processors, such as the GPU, demands algorithms with abundant fine-grained parallelism. In this paper, we develop a parallel algebraic multigrid method which exposes substantial fine-grained parallelism in both the construction of the multigrid hierarchy as well as the cycling or solve stage. Our algorithms are expressed in terms of scalable parallel primitives that are efficiently implemented on the GPU. The resulting solver achieves an average speedup of over 2x in the setup phase and around 6x in the cycling phase when compared to a representative CPU implementation.</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="/2011-06-NVR-AMG/nvr-2011-002.pdf">Paper (PDF)</a></li>
+<li><a href="/2011-06-NVR-AMG/bibtex.txt">BibTeX (TXT)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://research.nvidia.com/publication/exposing-fine-grained-parallelism-algebraic-multigrid-methods">NVIDIA Research</a></li>
+<li><a href="http://code.google.com/p/cusp-library/downloads/list">Source Code</a></li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Nathan Bell</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-06-01T00:00:00-04:00" pubdate data-updated="true">Jun 1<span>st</span>, 2011</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/publications/'>publications</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wnbell.github.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/" data-via="" data-counturl="http://wnbell.github.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators/" title="Previous Post: Sparse Matrix-Vector Multiplication on Multicore and Accelerators">&laquo; Sparse Matrix-Vector Multiplication on Multicore and Accelerators</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda/" title="Next Post: Thrust: A Productivity-Oriented Library for CUDA">Thrust: A Productivity-Oriented Library for CUDA &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus/">PyDEC: Software and Algorithms for Discretization of Exterior Calculus</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda/">Thrust: A Productivity-Oriented Library for CUDA</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/">Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators/">Sparse Matrix-Vector Multiplication on Multicore and Accelerators</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors/">Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Nathan Bell -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,11 +1,75 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>
+            http://wnbell.github.com/blog/2005/07/01/particle-based-simulation-of-granular-materials/
+        </loc>
+        <lastmod>2012-03-21T17:13:49-04:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://wnbell.github.com/blog/2006/07/01/a-fast-multigrid-algorithm-for-mesh-deformation/
+        </loc>
+        <lastmod>2012-03-21T17:14:00-04:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://wnbell.github.com/blog/2008/02/01/algebraic-multigrid-for-k-form-laplacians/
+        </loc>
+        <lastmod>2012-03-21T17:14:11-04:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://wnbell.github.com/blog/2008/08/01/algebraic-multigrid-for-discrete-differential-forms/
+        </loc>
+        <lastmod>2012-03-21T17:14:25-04:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://wnbell.github.com/blog/2008/12/01/efficient-sparse-matrix-vector-multiplication-on-cuda/
+        </loc>
+        <lastmod>2012-03-21T17:14:39-04:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://wnbell.github.com/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors/
+        </loc>
+        <lastmod>2012-03-21T17:14:51-04:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://wnbell.github.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators/
+        </loc>
+        <lastmod>2012-03-21T17:15:12-04:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://wnbell.github.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/
+        </loc>
+        <lastmod>2012-03-21T17:15:25-04:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://wnbell.github.com/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda/
+        </loc>
+        <lastmod>2012-03-21T17:15:42-04:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://wnbell.github.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus/
+        </loc>
+        <lastmod>2012-03-21T21:07:52-04:00</lastmod>
+    </url>
+    <url>
         <loc>http://wnbell.github.com/blog/archives/</loc>
-        <lastmod>2012-03-20T14:37:02-04:00</lastmod>
+        <lastmod>2012-03-21T21:07:52-04:00</lastmod>
     </url>
     <url>
         <loc>http://wnbell.github.com/</loc>
-        <lastmod>2012-03-20T14:37:02-04:00</lastmod>
+        <lastmod>2012-03-21T21:07:52-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://wnbell.github.com/projects.html</loc>
+        <lastmod>2012-03-22T14:30:52-04:00</lastmod>
     </url>
 </urlset>

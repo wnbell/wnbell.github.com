@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: publications | Nathan Bell]]></title>
+  <link href="http://wnbell.github.com/blog/categories/publications/atom.xml" rel="self"/>
+  <link href="http://wnbell.github.com/"/>
+  <updated>2012-03-22T14:49:04-04:00</updated>
+  <id>http://wnbell.github.com/</id>
+  <author>
+    <name><![CDATA[Nathan Bell]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PyDEC: Software and Algorithms for Discretization of Exterior Calculus]]></title>
+    <link href="http://wnbell.github.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus/"/>
+    <updated>2012-02-01T00:00:00-05:00</updated>
+    <id>http://wnbell.github.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus</id>
+    <content type="html"><![CDATA[<p><!--- Render publication's YAML data -->
+
+
+
+<h3>Citation</h3>
+<p>"<b>Category: publications</b>"<br>Liquid error: undefined method `length' for nil:NilClass<br><i></i></p>
+
+<h3>Abstract</h3>
+
+
+</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="media/2012-TOMS-PyDEC/BeHi2012.pdf">Paper (PDF)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://code.google.com/p/pydec/">Project Website</a></li>
+<li><a href="http://arxiv.org/abs/1103.3076">arXiv</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thrust: A Productivity-Oriented Library for CUDA]]></title>
+    <link href="http://wnbell.github.com/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda/"/>
+    <updated>2011-10-01T00:00:00-04:00</updated>
+    <id>http://wnbell.github.com/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda</id>
+    <content type="html"><![CDATA[<p><!--- Render publication's YAML data -->
+
+
+
+<h3>Citation</h3>
+<p>"<b>Category: publications</b>"<br>Liquid error: undefined method `length' for nil:NilClass<br><i></i></p>
+
+<h3>Abstract</h3>
+
+
+</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="media/2011-10-GCG-Thrust/Thrust-Gem.pdf">Paper (PDF)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://mkp.com/news/3405">Morgan Kauffman</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods]]></title>
+    <link href="http://wnbell.github.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/"/>
+    <updated>2011-06-01T00:00:00-04:00</updated>
+    <id>http://wnbell.github.com/blog/2011/06/01/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods</id>
+    <content type="html"><![CDATA[<p><!--- Render publication's YAML data -->
+
+
+
+<h3>Citation</h3>
+<p>"<b>Category: publications</b>"<br>Liquid error: undefined method `length' for nil:NilClass<br><i></i></p>
+
+<h3>Abstract</h3>
+
+
+</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="2011-06-NVR-AMG/nvr-2011-002.pdf">Paper (PDF)</a></li>
+<li><a href="2011-06-NVR-AMG/bibtex.txt">BibTeX (TXT)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://research.nvidia.com/publication/exposing-fine-grained-parallelism-algebraic-multigrid-methods">NVIDIA Research</a></li>
+<li><a href="http://code.google.com/p/cusp-library/downloads/list">Source Code</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sparse Matrix-Vector Multiplication on Multicore and Accelerators]]></title>
+    <link href="http://wnbell.github.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators/"/>
+    <updated>2010-10-01T00:00:00-04:00</updated>
+    <id>http://wnbell.github.com/blog/2010/10/01/sparse-matrix-vector-multiplication-on-multicore-and-accelerators</id>
+    <content type="html"><![CDATA[<p><!--- Render publication's YAML data -->
+
+
+
+<h3>Citation</h3>
+<p>"<b>Category: publications</b>"<br>Liquid error: undefined method `length' for nil:NilClass<br><i></i></p>
+
+<h3>Abstract</h3>
+
+
+</p>
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://www.crcpress.com/product/isbn/9781439825365">CRC Press</a></li>
+<li><a href="http://research.nvidia.com/publication/sparse-matrix-vector-multiplication-multicore-and-accelerators">NVIDIA Research</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors]]></title>
+    <link href="http://wnbell.github.com/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors/"/>
+    <updated>2009-10-01T00:00:00-04:00</updated>
+    <id>http://wnbell.github.com/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors</id>
+    <content type="html"><![CDATA[<p><!--- Render publication's YAML data -->
+
+
+
+<h3>Citation</h3>
+<p>"<b>Category: publications</b>"<br>Liquid error: undefined method `length' for nil:NilClass<br><i></i></p>
+
+<h3>Abstract</h3>
+
+
+</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="media/2009-11-SC-SpMV/nvr-2008-004.pdf">Paper (PDF)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://dl.acm.org/citation.cfm?doid=1654059.1654078">ACM Digital Library</a></li>
+<li><a href="http://research.nvidia.com/content/implementing-sparse-matrix-vector-multiplication-throughput-oriented-processors">NVIDIA Research</a></li>
+<li><a href="http://code.google.com/p/cusp-library/downloads/list">Source Code</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
