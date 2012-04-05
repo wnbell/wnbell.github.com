@@ -1,0 +1,7 @@
+@article{2012_BeDaOl_amggpu,
+  author = {Nathan Bell and Steven Dalton and Luke N. Olson},
+  title = {Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods},
+  journal = {SIAM Journal on Scientific Computing},
+  year = {2012},
+  note = {accepted}
+}
