@@ -4,7 +4,7 @@
   <title><![CDATA[Category: publications | Nathan Bell]]></title>
   <link href="http://wnbell.com/blog/categories/publications/atom.xml" rel="self"/>
   <link href="http://wnbell.com/"/>
-  <updated>2012-03-22T15:31:01-04:00</updated>
+  <updated>2012-04-05T12:29:45-04:00</updated>
   <id>http://wnbell.com/</id>
   <author>
     <name><![CDATA[Nathan Bell]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods]]></title>
+    <link href="http://wnbell.com/blog/2012/04/05/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/"/>
+    <updated>2012-04-05T00:00:00-04:00</updated>
+    <id>http://wnbell.com/blog/2012/04/05/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods</id>
+    <content type="html"><![CDATA[<p><!--- Render publication's YAML data -->
+
+
+
+<h3>Citation</h3>
+<p>"<b>Category: publications</b>"<br>Liquid error: undefined method `length' for nil:NilClass<br><i></i></p>
+
+<h3>Abstract</h3>
+
+
+</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="media/2012-SISC-AMG/GPU-AMG-SISC.pdf">Paper (PDF)</a></li>
+<li><a href="media/2012-SISC-AMG/bibtex.txt">BibTeX (TXT)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://code.google.com/p/cusp-library/downloads/list">Source Code</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PyDEC: Software and Algorithms for Discretization of Exterior Calculus]]></title>
@@ -137,41 +171,6 @@
 <ul>
 <li><a href="http://www.crcpress.com/product/isbn/9781439825365">CRC Press</a></li>
 <li><a href="http://research.nvidia.com/publication/sparse-matrix-vector-multiplication-multicore-and-accelerators">NVIDIA Research</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Implementing Sparse Matrix-Vector Multiplication on Throughput-Oriented Processors]]></title>
-    <link href="http://wnbell.com/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors/"/>
-    <updated>2009-10-01T00:00:00-04:00</updated>
-    <id>http://wnbell.com/blog/2009/10/01/implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors</id>
-    <content type="html"><![CDATA[<p><!--- Render publication's YAML data -->
-
-
-
-<h3>Citation</h3>
-<p>"<b>Category: publications</b>"<br>Liquid error: undefined method `length' for nil:NilClass<br><i></i></p>
-
-<h3>Abstract</h3>
-
-
-</p>
-
-<h3>Downloads</h3>
-
-<ul>
-<li><a href="media/2009-11-SC-SpMV/nvr-2008-004.pdf">Paper (PDF)</a></li>
-</ul>
-
-
-<h3>External Links</h3>
-
-<ul>
-<li><a href="http://dl.acm.org/citation.cfm?doid=1654059.1654078">ACM Digital Library</a></li>
-<li><a href="http://research.nvidia.com/content/implementing-sparse-matrix-vector-multiplication-throughput-oriented-processors">NVIDIA Research</a></li>
-<li><a href="http://code.google.com/p/cusp-library/downloads/list">Source Code</a></li>
 </ul>
 
 ]]></content>

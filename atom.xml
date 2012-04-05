@@ -4,7 +4,7 @@
   <title><![CDATA[Nathan Bell]]></title>
   <link href="http://wnbell.com/atom.xml" rel="self"/>
   <link href="http://wnbell.com/"/>
-  <updated>2012-03-22T15:31:01-04:00</updated>
+  <updated>2012-04-05T12:29:45-04:00</updated>
   <id>http://wnbell.com/</id>
   <author>
     <name><![CDATA[Nathan Bell]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods]]></title>
+    <link href="http://wnbell.com/blog/2012/04/05/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/"/>
+    <updated>2012-04-05T00:00:00-04:00</updated>
+    <id>http://wnbell.com/blog/2012/04/05/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods</id>
+    <content type="html"><![CDATA[<!--- Render publication's YAML data -->
+
+
+
+
+<div style="float:right">
+    <img src="http://wnbell.com/media/2012-SISC-AMG/thumbnail.png" title="teaser image" />
+</div>
+
+
+
+
+<h3>Citation</h3>
+
+
+<p>&#8220;<b>Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods</b>&#8221;<br>Nathan Bell, Steven Dalton, and Luke Olson<br><i>SIAM Journal on Scientific Computing (accepted)</i></p>
+
+
+
+
+<h3>Abstract</h3>
+
+
+<p>Algebraic multigrid methods for large, sparse linear systems are a necessity in many computational simulations, yet parallel algorithms for such solvers are generally decomposed into coarse-grained tasks suitable for distributed computers with traditional processing cores. However, accelerating multigrid on massively parallel throughput-oriented processors, such as the GPU, demandsalgorithms with abundant fine-grained parallelism. In this paper, we develop a parallel algebraic multigrid method which exposes substantial fine-grained parallelism in both the construction of the multigrid hierarchy as well as the cycling or solve stage. Our algorithms are expressed in terms of scalable parallel primitives that are efficiently implemented on the GPU. The resulting solver achieves an average speedup of 1.8× in the setup phase and 5.7× in the cycling phase when compared to a representative CPU implementation.</p>
+
+<h3>Downloads</h3>
+
+<ul>
+<li><a href="http://wnbell.com/media/2012-SISC-AMG/GPU-AMG-SISC.pdf">Paper (PDF)</a></li>
+<li><a href="http://wnbell.com/media/2012-SISC-AMG/bibtex.txt">BibTeX (TXT)</a></li>
+</ul>
+
+
+<h3>External Links</h3>
+
+<ul>
+<li><a href="http://code.google.com/p/cusp-library/downloads/list">Source Code</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PyDEC: Software and Algorithms for Discretization of Exterior Calculus]]></title>

@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>PyDEC: Software and Algorithms for Discretization of Exterior Calculus - Nathan Bell</title>
+  <title>Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods - Nathan Bell</title>
   <meta name="author" content="Nathan Bell">
 
   
-  <meta name="description" content="Citation &#8220;PyDEC: Software and Algorithms for Discretization of Exterior Calculus&#8221;Nathan Bell and Anil HiraniACM Transactions on &hellip;">
+  <meta name="description" content="Citation &#8220;Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods&#8221;Nathan Bell, Steven Dalton, and Luke OlsonSIAM Journal on &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://wnbell.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus">
+  <link rel="canonical" href="http://wnbell.com/blog/2012/04/05/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -83,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">PyDEC: Software and Algorithms for Discretization of Exterior Calculus</h1>
+      <h1 class="entry-title">Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods</h1>
     
     
       <p class="meta">
@@ -99,7 +99,7 @@
   
 
 
-<time datetime="2012-02-01T00:00:00-05:00" pubdate data-updated="true">Feb 1<span>st</span>, 2012</time>
+<time datetime="2012-04-05T00:00:00-04:00" pubdate data-updated="true">Apr 5<span>th</span>, 2012</time>
         
       </p>
     
@@ -112,7 +112,7 @@
 
 
 <div style="float:right">
-    <img src="/media/2012-TOMS-PyDEC/thumbnail.png" title="teaser image" />
+    <img src="/media/2012-SISC-AMG/thumbnail.png" title="teaser image" />
 </div>
 
 
@@ -121,7 +121,7 @@
 <h3>Citation</h3>
 
 
-<p>&#8220;<b>PyDEC: Software and Algorithms for Discretization of Exterior Calculus</b>&#8221;<br>Nathan Bell and Anil Hirani<br><i>ACM Transactions on Mathematical Software (accepted)</i></p>
+<p>&#8220;<b>Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods</b>&#8221;<br>Nathan Bell, Steven Dalton, and Luke Olson<br><i>SIAM Journal on Scientific Computing (accepted)</i></p>
 
 
 
@@ -129,20 +129,20 @@
 <h3>Abstract</h3>
 
 
-<p>This paper describes the algorithms, features and implementation of PyDEC, a Python library for computations related to the discretization of exterior calculus. PyDEC facilitates inquiry into both physical problems on manifolds as well as purely topological problems on abstract complexes. We describe efficient algorithms for constructing the operators and objects that arise in discrete exterior calculus, lowest order finite element exterior calculus and in related topological problems. Our algorithms are formulated in terms of high-level matrix operations which extend to arbitrary dimension. As a result, our implementations map well to the facilities of numerical libraries such as NumPy and SciPy. The availability of such libraries makes Python suitable for prototyping numerical methods. We demonstrate how PyDEC is used to solve physical and topological problems through several concise examples.</p>
+<p>Algebraic multigrid methods for large, sparse linear systems are a necessity in many computational simulations, yet parallel algorithms for such solvers are generally decomposed into coarse-grained tasks suitable for distributed computers with traditional processing cores. However, accelerating multigrid on massively parallel throughput-oriented processors, such as the GPU, demandsalgorithms with abundant fine-grained parallelism. In this paper, we develop a parallel algebraic multigrid method which exposes substantial fine-grained parallelism in both the construction of the multigrid hierarchy as well as the cycling or solve stage. Our algorithms are expressed in terms of scalable parallel primitives that are efficiently implemented on the GPU. The resulting solver achieves an average speedup of 1.8× in the setup phase and 5.7× in the cycling phase when compared to a representative CPU implementation.</p>
 
 <h3>Downloads</h3>
 
 <ul>
-<li><a href="/media/2012-TOMS-PyDEC/BeHi2012.pdf">Paper (PDF)</a></li>
+<li><a href="/media/2012-SISC-AMG/GPU-AMG-SISC.pdf">Paper (PDF)</a></li>
+<li><a href="/media/2012-SISC-AMG/bibtex.txt">BibTeX (TXT)</a></li>
 </ul>
 
 
 <h3>External Links</h3>
 
 <ul>
-<li><a href="http://code.google.com/p/pydec/">Project Website</a></li>
-<li><a href="http://arxiv.org/abs/1103.3076">arXiv</a></li>
+<li><a href="http://code.google.com/p/cusp-library/downloads/list">Source Code</a></li>
 </ul>
 
 </div>
@@ -167,7 +167,7 @@
   
 
 
-<time datetime="2012-02-01T00:00:00-05:00" pubdate data-updated="true">Feb 1<span>st</span>, 2012</time>
+<time datetime="2012-04-05T00:00:00-04:00" pubdate data-updated="true">Apr 5<span>th</span>, 2012</time>
       
 
 <span class="categories">
@@ -181,7 +181,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wnbell.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus/" data-via="" data-counturl="http://wnbell.com/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wnbell.com/blog/2012/04/05/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/" data-via="" data-counturl="http://wnbell.com/blog/2012/04/05/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/" >Tweet</a>
   
   
   
@@ -190,10 +190,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2011/10/01/thrust-productivity-oriented-library-for-cuda/" title="Previous Post: Thrust: A Productivity-Oriented Library for CUDA">&laquo; Thrust: A Productivity-Oriented Library for CUDA</a>
+        <a class="basic-alignment left" href="/blog/2012/02/01/pydec-software-and-algorithms-for-discretization-of-exterior-calculus/" title="Previous Post: PyDEC: Software and Algorithms for Discretization of Exterior Calculus">&laquo; PyDEC: Software and Algorithms for Discretization of Exterior Calculus</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/04/05/exposing-fine-grained-parallelism-in-algebraic-multigrid-methods/" title="Next Post: Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods">Exposing Fine-Grained Parallelism in Algebraic Multigrid Methods &raquo;</a>
       
     </p>
   </footer>
